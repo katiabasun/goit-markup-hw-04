@@ -625,11 +625,9 @@ ul {
 
 .card-item {
     width: 360px;
-    margin-bottom: 30px;
     cursor: pointer;
     
     border: 1px solid #E7E9FC;
-    box-shadow: 0px 0px 6px 1px #E7E9FC;
 }
 
 .card-item:nth-child(3n) {
@@ -661,11 +659,9 @@ ul {
     height: auto;
 }
 
-.portf-link .portf-photo:focus,
-.portf-link .portf-photo:hover {
-    box-shadow: 0px, 2px rgba(46, 47, 66, 0.08),
-    0px, 1px rgba(46, 47, 66, 0.16),
-    0px, 1px rgba(46, 47, 66, 0.08);
+.card-item:hover,
+.card-item:focus {
+    box-shadow: 0px 0px 6px 1px #E7E9FC;
 }
 
 .portf-link {
@@ -714,7 +710,6 @@ ul {
   padding: 0;
   list-style: none;
   cursor: pointer;
-
   box-shadow: 0px, 2px rgba(46, 47, 66, 0.08),
     0px, 1px rgba(46, 47, 66, 0.16),
     0px, 1px rgba(46, 47, 66, 0.08);
